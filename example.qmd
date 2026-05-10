@@ -4,3 +4,9 @@ format: html
 ---
 
 \## this is for conflict test
+
+\## Simple Plot Example
+
+```{r}
+plot(1:10, rnorm(10), main = "My First Plot", col = "blue", pch = 19)
+```
